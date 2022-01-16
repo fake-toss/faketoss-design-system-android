@@ -4,19 +4,19 @@ plugins {
 }
 
 ext {
-    PUBLISH_GROUP_ID = 'io.github.jisungbin'
-    PUBLISH_VERSION = '1.0.2'
-    PUBLISH_ARTIFACT_ID = 'timelineview'
-    PUBLISH_DESCRIPTION = 'android TimeLineView that made with jetpack-compose'
-    PUBLISH_URL = 'https://github.com/jisungbin/TimeLineView'
+    PUBLISH_GROUP_ID = 'land.sungbin'
+    PUBLISH_VERSION = '1.0.0'
+    PUBLISH_ARTIFACT_ID = 'ftds'
+    PUBLISH_DESCRIPTION = 'Fake Toss Design System'
+    PUBLISH_URL = 'https://github.com/fake-toss/faketoss-design-system-android'
     PUBLISH_LICENSE_NAME = 'MIT License'
-    PUBLISH_LICENSE_URL = 'https://github.com/jisungbin/TimeLineView/blob/master/LICENSE'
+    PUBLISH_LICENSE_URL = 'https://github.com/fake-toss/faketoss-design-system-android/blob/master/LICENSE'
     PUBLISH_DEVELOPER_ID = 'jisungbin'
     PUBLISH_DEVELOPER_NAME = 'Ji Sungbin'
-    PUBLISH_DEVELOPER_EMAIL = 'sungbin.dev@gmail.com'
-    PUBLISH_SCM_CONNECTION = 'scm:git:github.com/jisungbin/timelineview.git'
-    PUBLISH_SCM_DEVELOPER_CONNECTION = 'scm:git:ssh://github.com/jisungbin/timelineview.git'
-    PUBLISH_SCM_URL = 'https://github.com/jisungbin/timelineview/tree/master'
+    PUBLISH_DEVELOPER_EMAIL = 'ji@sungb.in'
+    PUBLISH_SCM_CONNECTION = 'scm:git:github.com/fake-toss/faketoss-design-system-android.git'
+    PUBLISH_SCM_DEVELOPER_CONNECTION = 'scm:git:ssh://github.com/fake-toss/faketoss-design-system-android.git'
+    PUBLISH_SCM_URL = 'https://github.com/fake-toss/faketoss-design-system-android/tree/master'
 }
 
 apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
@@ -50,8 +50,7 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.core:core-ktx:1.7.0'
     implementation "androidx.compose.ui:ui:$compose_version"
     implementation "androidx.compose.compiler:compiler:$compose_version"
-    implementation "androidx.compose.material:material:$compose_version"
 }
