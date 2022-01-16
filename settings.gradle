@@ -1,0 +1,3 @@
+rootProject.name = "FTDS"
+include ':app'
+include ':ftds'
