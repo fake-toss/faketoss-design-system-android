@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/40740128/149664872-5021a834-4167-4b30-8de7-20d710e73f99.png" align="right" width="20%" />
+<img src="https://user-images.githubusercontent.com/40740128/149664872-5021a834-4167-4b30-8de7-20d710e73f99.png" align="right" width="23%" />
 
 # FTDS 
 
