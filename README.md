@@ -6,6 +6,8 @@
 
 Let's clone [TDS](https://youtu.be/pfKuEuufgdc) with Jetpack Compose!
 
+TDS의 모든 면을 따라하기엔 시간이 부족해서, FTDS 만의 새로운 방식으로 개발합니다.
+
 ```kotlin
 FTossTheme {
     Box(
